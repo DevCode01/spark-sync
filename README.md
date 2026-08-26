@@ -25,6 +25,14 @@ cd spark-sync
 ./spark-sync.js 20
 ```
 
+## How it works
+
+Generates the first N Fibonacci numbers using BigInt arithmetic, so values stay exact even for hundreds of terms. Prints the sequence comma-separated.
+
+## Options
+
+- `N` - number of terms (default 10, must be >= 1)
+
 ## Example
 
 ```bash
